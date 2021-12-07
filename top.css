@@ -298,14 +298,12 @@ a {
   padding-left: 20px;
 }
 
-.email {
+.email2 {
   width: 20px;
   height: 16px;
-  
+  padding-left: 20px;
   color: #505f79;
 }
-
-
 
 .linkedin {
   width: 20px;
@@ -612,7 +610,7 @@ button.resume:disabled {
 
 .Contact {
   width: 375px;
-  height: 780px;
+  height: 782px;
   padding-left: 0;
   background-color: #6070ff;
   margin-top: -120px;
@@ -621,7 +619,6 @@ button.resume:disabled {
   background-size: 240px 740px;
   background-repeat: no-repeat;
   background-position: right;
-  
 }
 
 .contact-heading {
@@ -656,10 +653,96 @@ button.resume:disabled {
   display: flex;
   flex-direction: column;
   list-style: none;
-
   align-items: center;
+  padding-top: 5px;
+}
 
+input[type=text] {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background-color: #fff;
+  padding-left: 16px;
+  padding-right: 0.5px;
+  margin-top: 80px;
+  margin-left: 17px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #172b4d;
+  display: flex;
+  align-items: center;
+}
 
-  padding-top: 90px;
+input[type=email] {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background-color: #fff;
+  padding-left: 16px;
+  margin-top: 8px;
+  margin-right: -15px;
+  padding-right: 0.5px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #172b4d;
+  display: flex;
+  align-items: center;
+}
 
+textarea {
+  width: 325px;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background-color: #fff;
+  margin-top: 18px;
+  margin-left: 17px;
+  padding-top: 15px;
+  padding-left: 16px;
+  font-family: Poppins, sans-serif;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 140px;
+  height: 48px;
+  padding-left: 13px;
+  margin-left: 18.5px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 500ms ease;
+  font-size: 17px;
+  font-weight: 500;
+  color: #396df2;
+  letter-spacing: 00.03em;
+  border: 1px solid #6070ff;
+}
+
+.submit:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+.submit:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: 0.5px solid #c0c0c0;
+}
+
+.submit:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.submit:disabled {
+  border: 1px solid #c1c7d0;
+  color: #5e6c84;
 }
