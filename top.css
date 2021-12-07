@@ -301,9 +301,11 @@ a {
 .email {
   width: 20px;
   height: 16px;
-  padding-left: 20px;
+  
   color: #505f79;
 }
+
+
 
 .linkedin {
   width: 20px;
@@ -653,6 +655,10 @@ button.resume:disabled {
 .form_content {
   display: flex;
   flex-direction: column;
+  list-style: none;
+
+  align-items: center;
+
 
   padding-top: 90px;
 
