@@ -7,7 +7,7 @@
   background-color: #f7f7f9;
   width: 375px;
   height: 5410px;
-  padding-top: 19px;
+  padding-top: 0;
   padding-left: 0;
   display: grid;
 }
@@ -244,6 +244,7 @@ a {
   background-color: #fff;
   border-top-right-radius: 90px;
   margin-top: 120px;
+  height: 1263px;
 }
 
 .about {
@@ -612,7 +613,7 @@ button.resume:disabled {
   height: 780px;
   padding-left: 0;
   background-color: #6070ff;
-  margin-top: 130px;
+  margin-top: -120px;
   border-top-left-radius: 90px;
   background-image: url("images2/contact\ form\ shapes-mobile@2x.png");
   background-size: 240px 740px;
