@@ -606,3 +606,139 @@ button.resume:disabled {
   border: 1px solid #c1c7d0;
   color: #5e6c84;
 }
+
+.Contact {
+  width: 375px;
+  height: 780px;
+  padding-left: 0;
+  background-color: #6070ff;
+  margin-top: 130px;
+  border-top-left-radius: 90px;
+  background-image: url("images2/contact\ form\ shapes-mobile@2x.png");
+  background-size: 240px 740px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.contact-heading {
+  display: inline-flex;
+  width: 801px;
+  height: 56px;
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  padding-top: 103px;
+  padding-left: 50px;
+  color: #fff;
+}
+
+.contact-message {
+  width: 327px;
+  height: 102px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding-left: 17px;
+  padding-top: 12px;
+}
+
+.form_content {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text] {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background-color: #fff;
+  padding-left: 16px;
+  padding-right: 0.5px;
+  margin-top: 80px;
+  margin-left: 17px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #172b4d;
+  display: flex;
+  align-items: center;
+}
+
+input[type=email] {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background-color: #fff;
+  padding-left: 16px;
+  margin-top: 8px;
+  margin-left: -1px;
+  padding-right: 0.5px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #172b4d;
+  display: flex;
+  align-items: center;
+}
+
+textarea {
+  width: 325px;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background-color: #fff;
+  margin-top: 49px;
+  margin-left: 17px;
+  padding-top: 15px;
+  padding-left: 16px;
+  font-family: Poppins, sans-serif;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 140px;
+  height: 48px;
+  padding-left: 13px;
+  margin-left: 18.5px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 500ms ease;
+  font-size: 17px;
+  font-weight: 500;
+  color: #396df2;
+  letter-spacing: 00.03em;
+  border: 1px solid #6070ff;
+}
+
+.submit:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+.submit:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: 0.5px solid #c0c0c0;
+}
+
+.submit:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.submit:disabled {
+  border: 1px solid #c1c7d0;
+  color: #5e6c84;
+}
