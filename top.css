@@ -619,6 +619,7 @@ button.resume:disabled {
   background-size: 240px 740px;
   background-repeat: no-repeat;
   background-position: right;
+  
 }
 
 .contact-heading {
@@ -652,4 +653,7 @@ button.resume:disabled {
 .form_content {
   display: flex;
   flex-direction: column;
+
+  padding-top: 90px;
+
 }
