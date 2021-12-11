@@ -705,6 +705,9 @@ body {
     padding-left: 5%;
   }
 
+  .linkedin1:hover {transform: scale(1.5)};
+
+
   .email1 {
     width: 70%;
     color: #505f79;
