@@ -334,6 +334,7 @@ body {
 
   .resume {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 43%;
     height: 5%;
@@ -497,7 +498,7 @@ body {
     border-radius: 8px;
     border: 1px solid #cfd8dc;
     background-color: #fff;
-    padding-left: 6%;
+    padding-left: 16px;
     margin-top: 15%;
     margin-left: 7%;
     font-family: Poppins, sans-serif;
@@ -554,7 +555,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1099px) {
+@media only screen and (min-width: 992px) {
   body {
     margin: 0;
     background-color: #f7f7f9;
@@ -838,6 +839,7 @@ body {
 
   .resume {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 60%;
     height: 12%;
@@ -1076,7 +1078,7 @@ body {
   }
 
   .Contact {
-    height: 820px;
+    height: 920px;
     background-color: #6070ff;
     margin-top: -20%;
     padding-top: -20%;
@@ -1154,6 +1156,7 @@ body {
     padding-top: 1.5%;
     padding-bottom: 4%;
     margin-left: 41%;
+    margin-top: 1%;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
