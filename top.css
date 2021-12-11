@@ -695,33 +695,50 @@ body {
     transition: transform 500ms ease;
   }
 
-  .twitter:hover {transform: scale(1.5)};
-
-
+  .twitter1:hover {
+    transform: scale(1.5);
+  }
 
   .linkedin1 {
     width: 70%;
     color: #505f79;
     padding-left: 5%;
+    transition: transform 500ms ease;
   }
 
-  .linkedin1:hover {transform: scale(1.5)};
-
+  .linkedin1:hover {
+    transform: scale(1.5);
+  }
 
   .email1 {
     width: 70%;
     color: #505f79;
+    transition: transform 500ms ease;
+  }
+
+  .email1:hover {
+    transform: scale(1.5);
   }
 
   .github1 {
     width: 70%;
     color: #505f79;
+    transition: transform 500ms ease;
+  }
+
+  .github1:hover {
+    transform: scale(1.5);
   }
 
   .vector1 {
     width: 70%;
     color: #505f79;
     padding-left: 7%;
+    transition: transform 500ms ease;
+  }
+
+  .vector1:hover {
+    transform: scale(1.5);
   }
 
   .projects {
