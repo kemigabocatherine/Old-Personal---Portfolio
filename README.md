@@ -24,6 +24,10 @@ This project contains information about me and my projects It shows the work I h
 
 4 The project is then on your local
 
+## Live Demo
+
+Link:[My personal portfolio](https://kemigabocatherine.github.io/Personal---Portfolio/)
+
 ## Contact
 
 GitHub:[@githubhandle](https://github.com/kemigabocatherine)
