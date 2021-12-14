@@ -596,11 +596,16 @@ body {
     font-weight: 700;
   }
 
+  .dmenu a {
+    text-decoration: none;
+    color: #344563;
+  }
+
   .dmenu {
     width: 700%;
     display: flex;
     align-items: flex-end;
-    padding-left: 250%;
+    padding-left: 400%;
     padding-top: 3%;
     list-style-type: none;
   }
