@@ -596,6 +596,11 @@ body {
     font-weight: 700;
   }
 
+  .dmenu a {
+    text-decoration: none;
+    color: #6070ff;
+  }
+
   .dmenu {
     width: 700%;
     display: flex;
