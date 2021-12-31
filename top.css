@@ -219,7 +219,7 @@ body {
   .end {
     width: 66%;
     color: #7a869a;
-    list-style: disc;
+    list-style-type: disc;
   }
 
   .end {
